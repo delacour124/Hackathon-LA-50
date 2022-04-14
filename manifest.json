@@ -1,0 +1,22 @@
+{
+  "name": "Banned Sites",
+  "description": "Codesmith!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "main.js"
+  }, 
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "declarativeWebRequest"
+  ],
+
+  "action": {
+    "default_popup": "index.html"
+  }
+}
+
+
+
