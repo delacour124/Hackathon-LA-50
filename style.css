@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+
+}
+
+#title {
+  font-size: medium;
+  color: peru;
+}
+
+/* #addWebsite {
+}
+
+#websiteURL {
+}
+
+#title {
+
+} */
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  margin-left: 35px;
+}
+
+input[type=text] {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 10%;
+  background-color: white;
+}
+
+input[type=text]:focus {
+  border: 3px solid rgb(124, 34, 34);
+}
