@@ -6,11 +6,16 @@
   "background": {
     "service_worker": "main.js"
   }, 
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["main.js"]
+  }],
   "permissions": [
     "storage",
     "webRequest",
     "webRequestBlocking",
-    "declarativeWebRequest"
+    "declarativeWebRequest",
+    "tabs"
   ],
 
   "action": {
